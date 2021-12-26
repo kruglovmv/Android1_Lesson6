@@ -18,7 +18,7 @@ public class NoteActivity extends AppCompatActivity {
     Note note = new Note();
     EditText titleNote;
     EditText noteDescription;
-    MaterialButton saveButton;
+    MaterialButton deleteButton;
     MaterialButton exitButton;
     private Integer id = -1;
 
@@ -45,9 +45,9 @@ public class NoteActivity extends AppCompatActivity {
     }
 
     private void initButton() {
-        saveButton = findViewById(R.id.button_save);
+        deleteButton = findViewById(R.id.button_delete);
         exitButton = findViewById(R.id.button_exit);
-        saveButton.setOnClickListener(new View.OnClickListener() {
+        deleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 note.setId(id);

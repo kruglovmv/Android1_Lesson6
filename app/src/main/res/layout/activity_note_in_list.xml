@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin_title"
-        android:textSize="@dimen/text_size_note_in_list"
+        android:textSize="@dimen/text_size_title_in_list"
         android:textColor="@color/black"
         />
 

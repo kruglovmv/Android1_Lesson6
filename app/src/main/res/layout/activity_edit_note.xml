@@ -54,9 +54,9 @@
         android:orientation="horizontal">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/button_save"
+            android:id="@+id/button_delete"
             style="@style/ButtonStyle"
-            android:text="@string/text_button_save" />
+            android:text="@string/text_button_delete" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_exit"
