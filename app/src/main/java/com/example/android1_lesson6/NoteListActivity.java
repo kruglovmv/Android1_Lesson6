@@ -30,6 +30,7 @@ public class NoteListActivity extends AppCompatActivity implements NotesAdapter.
         adapter = new NotesAdapter();
         fillList();
 
+
         adapter.setNotes(noteslist.getAll());
         adapter.setOnNoteClickListener(this);
         list = findViewById(R.id.notes_list);
