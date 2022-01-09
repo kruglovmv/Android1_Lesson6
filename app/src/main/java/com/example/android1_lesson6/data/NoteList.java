@@ -1,9 +1,10 @@
 package com.example.android1_lesson6.data;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NoteList implements Repo {
+public class NoteList implements Repo, Serializable {
 
     private ArrayList<Note> notesList = new ArrayList<>();
     private Integer counter = 0;
