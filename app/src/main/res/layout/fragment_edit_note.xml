@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/background_note">
+    android:background="@color/background_note"
+    android:orientation="vertical">
 
     <EditText
         android:id="@+id/title_note"
@@ -13,6 +13,39 @@
         android:layout_margin="@dimen/margin_title"
         android:textColor="@color/text_color_note"
         android:textSize="@dimen/text_size_title" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/date_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_title"
+            android:ems="10"
+            android:inputType="date" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:backgroundTint="@color/background_button"
+            android:text="@string/text_button_date"
+            app:cornerRadius="@dimen/corner_radius_button_note" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_title"
+        android:entries="@array/importance" />
 
     <View
         android:id="@+id/divider"
@@ -23,7 +56,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="3">
 
         <LinearLayout
             android:layout_width="match_parent"

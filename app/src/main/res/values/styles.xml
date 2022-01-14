@@ -8,5 +8,4 @@
     <item name="android:backgroundTint">@color/background_button</item>
     <item name="cornerRadius">@dimen/corner_radius_button_note</item>
 </style>
-
 </resources>
