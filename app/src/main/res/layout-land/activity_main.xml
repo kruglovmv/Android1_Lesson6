@@ -4,6 +4,7 @@
     android:id="@+id/main_list_fragment_holder"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_note"
     tools:ignore="MissingDefaultResource">
 
 </FrameLayout>
