@@ -1,0 +1,27 @@
+com/example/android1_lesson6/data/Constants.java
+ com.example.android1_lesson6.data.Constants
+com/example/android1_lesson6/data/NoteList.java
+ com.example.android1_lesson6.data.NoteList
+com/example/android1_lesson6/data/Repo.java
+ com.example.android1_lesson6.data.Repo
+com/example/android1_lesson6/fragment/NotesListFragment.java
+ com.example.android1_lesson6.fragment.NotesListFragment
+ com.example.android1_lesson6.fragment.NotesListFragment$Controller
+com/example/android1_lesson6/data/Note.java
+ com.example.android1_lesson6.data.Note
+com/example/android1_lesson6/fragment/MainActivity.java
+ com.example.android1_lesson6.fragment.MainActivity
+com/example/android1_lesson6/fragment/NoteFragment.java
+ com.example.android1_lesson6.fragment.NoteFragment
+ com.example.android1_lesson6.fragment.NoteFragment$1
+ com.example.android1_lesson6.fragment.NoteFragment$2
+com/example/android1_lesson6/fragment/NotesListLandFragment.java
+ com.example.android1_lesson6.fragment.NotesListLandFragment
+com/example/android1_lesson6/BuildConfig.java
+ com.example.android1_lesson6.BuildConfig
+com/example/android1_lesson6/recycler/NotesAdapter.java
+ com.example.android1_lesson6.recycler.NotesAdapter
+ com.example.android1_lesson6.recycler.NotesAdapter$OnNoteClickListener
+com/example/android1_lesson6/recycler/NoteHolder.java
+ com.example.android1_lesson6.recycler.NoteHolder
+ com.example.android1_lesson6.recycler.NoteHolder$1
